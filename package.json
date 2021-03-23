@@ -1,0 +1,50 @@
+{
+  "name": "mean-service-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "nodemon",
+    "coverage": "jest --runInBand --coverage",
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemantwadhwa/mean-service-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/hemantwadhwa/mean-service-stack/issues"
+  },
+  "homepage": "https://github.com/hemantwadhwa/mean-service-stack#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "helmet": "^4.4.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "pug": "^3.0.2",
+    "winston": "^3.3.3"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
+  }
+}
